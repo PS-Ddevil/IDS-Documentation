@@ -27,30 +27,47 @@ export default props => {
           </a>
         </li>
         <li> 
-          <a className="menu-item sub-menu" href="/customer/logout">
+          <a className="menu-item sub-menu" href="/customer/addtocart">
             Add to Cart
           </a>
         </li>
         <li> 
-          <a className="menu-item sub-menu" href="/customer/logout">
+          <a className="menu-item sub-menu" href="/customer/checkout">
             Checkout
           </a>
         </li>
         <li> 
-          <a className="menu-item sub-menu" href="/customer/logout">
+          <a className="menu-item sub-menu" href="/customer/dash">
             Dashboard
           </a>
         </li>
         <li> 
-          <a className="menu-item sub-menu" href="/customer/logout">
+          <a className="menu-item sub-menu" href="/customer/invoice">
             Payment Invoice
           </a>
         </li>
       </ul>
 
-      <a className="menu-item" href="/angular">
+      <span>
         Seller
-      </a>
+      </span>
+      <ul className="list-section">
+        <li>
+          <a className="menu-item sub-menu" href="/seller/reg">
+            Registeration
+          </a>
+        </li>
+        <li> 
+          <a className="menu-item sub-menu" href="/seller/login">
+            Login
+          </a>
+        </li>
+        <li> 
+          <a className="menu-item sub-menu" href="/seller/logout">
+            Logout
+          </a>
+        </li>
+      </ul>
 
     </Menu>
   );

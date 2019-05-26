@@ -4,7 +4,7 @@ import reg1 from '../img/signup1.png';
 import reg2 from '../img/signup2.png';
 import reg3 from '../img/signup3.png';
 
-class Overview extends Component{
+class CustReg extends Component{
 
     render(){
         return(
@@ -30,4 +30,4 @@ class Overview extends Component{
     }
 }
 
-export default Overview;
+export default CustReg;

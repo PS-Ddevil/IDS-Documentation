@@ -4,7 +4,7 @@ import login1 from '../img/login1.png';
 import login2 from '../img/login2.png';
 import login3 from '../img/login3.png';
 
-class Overview extends Component{
+class CustLogin extends Component{
 
     render(){
         return(
@@ -19,7 +19,7 @@ class Overview extends Component{
                     <img src={login2} alt="login2" width="800px"></img>
                     <br></br><br></br>
                     <h3>Step 3: Click on submit button.</h3>
-                    <img src={login3} alt="signup3" width="800px"></img>
+                    <img src={login3} alt="login3" width="800px"></img>
                     <br></br><br></br>
                     <h3>You will be redirected to the login page if the credentials are correct. <br></br> Otherwise An error page will get displayed</h3>
                 </Container>
@@ -30,4 +30,4 @@ class Overview extends Component{
     }
 }
 
-export default Overview;
+export default CustLogin;

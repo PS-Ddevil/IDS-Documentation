@@ -1,0 +1,104 @@
+html,
+body {
+  margin: 0;
+  background-color: white;
+}
+
+#App {
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+}
+
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 24px;
+  height: 20px;
+  left: 36px;
+  top: 36px;
+}
+
+.bm-burger-bars {
+  background: #373a47;
+}
+
+.bm-cross-button {
+  /* height: 12px;
+  width: 12px; */
+  display: none;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  line-height: 0.7em;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+#front-page{
+  margin-top: 300px;
+}
+
+#h1-main{
+  font-family: 'Roboto Slab', serif;
+}
+
+#h2-main{
+  font-family: 'Slabo 27px', serif;
+}
+
+.sub-menu{
+  text-decoration: none;
+  color: #d1d1d1;
+  line-height: 1.2em;
+}
+
+.sub-menu:hover{
+  /* text-decoration: none; */
+  color: white;
+}
+
+.list-section{
+  margin-top: 0em;
+  padding-top: 0em;
+  list-style-type: none;
+}
+
+#page-wrap{
+  margin-left: 300px;
+}
+
+.goback{
+  float:right;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 20px;
+}
